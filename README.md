@@ -61,6 +61,16 @@ where:
 
 The simulation computes the time evolution of the quantum state and outputs the expectation values `<σx>`, `<σy>`, and `<σz>` as functions of time. The state evolves according to the Schrödinger equation, resulting in Larmor precession around the magnetic field axis.
 
+## Sanity Checks
+
+To verify the simulation is working correctly, you can test the following scenarios:
+
+**Sanity Check: Eigenstate of the Hamiltonian**
+- With **B ∥ ẑ** (magnetic field along z-axis, `axis: [0, 0, 1]`) and an initial **σz eigenstate** (e.g., `initial_state: "up_z"` or `"down_z"`):
+  - `<σx>` and `<σy>` should stay near zero
+  - `<σz>` should stay constant (either +1 for `"up_z"` or -1 for `"down_z"`)
+  
+
 ## Definition of Done (DoD)
 
 A third party should be able to:

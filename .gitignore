@@ -41,3 +41,6 @@ Thumbs.db
 env/
 venv/
 
+# Notes - day logs (personal notes, not tracked)
+notes/day_log/
+
