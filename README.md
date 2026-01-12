@@ -34,7 +34,7 @@ bash verify_installation.sh
    pip install -r requirements.txt
    ```
 
-### Run the Simulation
+### Run the Simulation (Minimal Pipeline (V0))
 
 After setting up the environment, run the v0 demo:
 
