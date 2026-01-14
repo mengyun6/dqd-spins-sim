@@ -44,3 +44,5 @@ venv/
 # Notes - day logs (personal notes, not tracked)
 notes/day_log/
 
+# Local configs (user experiments, not tracked)
+configs/*_local.yml
